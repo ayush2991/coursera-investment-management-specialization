@@ -25,4 +25,3 @@ def get_ffme_returns():
     rets = rets/100
     rets.index = pd.to_datetime(rets.index, format="%Y%m").to_period('M')
     return rets
-
